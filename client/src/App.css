@@ -1,0 +1,88 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+/** Home Page */
+
+.me-auto {
+  margin-left: auto;
+  margin-right: unset !important;
+}
+
+.danger{
+  color: red;
+}
+
+.hpContainer {
+  padding: 36px;
+}
+
+.hpTitle{
+  margin: 24px 0;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.text{
+  margin: 12px 0;
+  text-align: center;
+}
+
+.playButton{
+  width: 300px;
+  margin-top: 24px;
+}
+
+/**Match & Game**/
+
+.externalContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.roundContainer {
+  padding: 48px;
+  max-width: 1200px;
+}
+
+.roundContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 64px;
+}
+
+.timer {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.imageContainer {
+  text-align: end;
+}
+
+.memeRound {
+  max-width: 350px;
+}
+
+.phrases {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.phraseButton {
+  min-width: 400px;
+}
+
+/**Profile**/
+
+.profileContainer{
+  margin-top: 24px;
+}
